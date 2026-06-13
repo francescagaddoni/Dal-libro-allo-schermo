@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Il Gattopardo</title>
+                <author>Giuseppe Tomasi di Lampedusa</author>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Progetto Digital Humanities</p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Estratto codificato in XML/TEI</p>
+            </sourceDesc>
+
+        </fileDesc>
+
+    </teiHeader>
+
+    <text>
+
+        <body>
+
+            <p>
+                Se vogliamo che tutto rimanga come è,
+                bisogna che tutto cambi.
+            </p>
+
+        </body>
+
+    </text>
+
+</TEI>

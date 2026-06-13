@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Gattopardo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Il Gattopardo</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-brown">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                Dal libro allo schermo
+            </a>
+
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="catalogo.html">Catalogo</a>
+                <a class="nav-link" href="dati.html">Dati</a>
+            </div>
+        </div>
+    </nav>
+
+    <img src="img/gattopardo-collage.png"
+         class="img-fluid rounded shadow"
+         style="width:100%; height:700px; object-fit:cover; margin:25px 0;"
+         alt="Collage Il Gattopardo">
+
+    <div class="m-3">
+        <span class="badge text-bg-dark">Romanzo</span>
+        <span class="badge text-bg-secondary">Cinema</span>
+        <span class="badge text-bg-warning">Adattamento</span>
+    </div>
+</header>
+
+<main>
+
+    <section class="item-card">
+        <h2>Scheda dell’item</h2>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="info-box">
+                    <h3>Opera letteraria</h3>
+                    <p><strong>Titolo:</strong> Il Gattopardo</p>
+                    <p><strong>Autore:</strong> Giuseppe Tomasi di Lampedusa</p>
+                    <p><strong>Anno:</strong> 1958</p>
+                    <p><strong>Tipologia:</strong> Romanzo</p>
+                    <p><strong>Lingua:</strong> Italiano</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="info-box">
+                    <h3>Adattamento cinematografico</h3>
+                    <p><strong>Titolo:</strong> Il Gattopardo</p>
+                    <p><strong>Regista:</strong> Luchino Visconti</p>
+                    <p><strong>Anno:</strong> 1963</p>
+                    <p><strong>Tipologia:</strong> Film</p>
+                    <p><strong>Paese:</strong> Italia</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="info-box">
+        <h2>Approfondimento</h2>
+
+        <div class="accordion" id="accordionGattopardo">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#libro">
+                        Opera letteraria
+                    </button>
+                </h2>
+
+                <div id="libro" class="accordion-collapse collapse show" data-bs-parent="#accordionGattopardo">
+                    <div class="accordion-body">
+                        <p>
+                            Pubblicato postumo nel 1958, <em>Il Gattopardo</em> racconta
+                            il declino dell’aristocrazia siciliana durante il periodo
+                            dell’unificazione italiana. Attraverso la figura del principe
+                            Fabrizio Salina, Giuseppe Tomasi di Lampedusa descrive
+                            le trasformazioni politiche, sociali e culturali della Sicilia
+                            ottocentesca, mettendo in scena il conflitto tra tradizione
+                            e modernità. Il romanzo riflette sul tema del cambiamento
+                            storico e sulla progressiva fine di un mondo aristocratico.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#film">
+                        Adattamento cinematografico
+                    </button>
+                </h2>
+
+                <div id="film" class="accordion-collapse collapse" data-bs-parent="#accordionGattopardo">
+                    <div class="accordion-body">
+                        <p>
+                            L’adattamento cinematografico diretto da Luchino Visconti
+                            nel 1963 traduce sul piano visivo l’atmosfera decadente
+                            del romanzo. Attraverso scenografie monumentali,
+                            costumi storici e una forte attenzione alla dimensione politica,
+                            il film mette in evidenza i temi della trasformazione sociale
+                            e della crisi dell’aristocrazia nel contesto del Risorgimento italiano.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="info-box">
+        <h2>Metadata Dublin Core</h2>
+
+        <ul>
+            <li><strong>Title:</strong> Il Gattopardo</li>
+            <li><strong>Creator:</strong> Giuseppe Tomasi di Lampedusa</li>
+            <li><strong>Date:</strong> 1958</li>
+            <li><strong>Type:</strong> Romanzo</li>
+            <li><strong>Language:</strong> Italiano</li>
+            <li><strong>Publisher:</strong> Feltrinelli</li>
+            <li><strong>Subject:</strong> Letteratura italiana, Sicilia, Risorgimento</li>
+            <li><strong>Coverage:</strong> Sicilia</li>
+            <li><strong>Description:</strong> Romanzo storico ambientato nella Sicilia del XIX secolo</li>
+        </ul>
+    </section>
+
+    <section class="info-box">
+        <h2>File XML</h2>
+
+        <p>
+            <a href="xml/gattopardo_dc.xml" target="_blank">
+                Metadata Dublin Core XML
+            </a>
+        </p>
+
+        <p>
+            <a href="xml/gattopardo_tei.xml" target="_blank">
+                File XML/TEI
+            </a>
+        </p>
+    </section>
+
+    <section class="info-box">
+        <h2>Authority control</h2>
+
+        <p>
+            L’autore è collegato a un identificatore standardizzato,
+            utile per evitare ambiguità nei dati.
+        </p>
+
+        <p>
+            <strong>VIAF:</strong>
+            <a href="https://viaf.org/en/viaf/88710059" target="_blank">
+                Giuseppe Tomasi di Lampedusa
+            </a>
+        </p>
+    </section>
+
+    <section class="info-box">
+        <h2>Cronologia</h2>
+
+        <ul>
+            <li><strong>1958</strong> — Pubblicazione del romanzo</li>
+            <li><strong>1963</strong> — Adattamento cinematografico di Luchino Visconti</li>
+            <li><strong>2025</strong> — Miniserie Netflix</li>
+        </ul>
+    </section>
+
+    <aside class="info-box mt-4 p-4">
+        
+        <h2>Risorse correlate e collegamenti esterni</h2>
+
+        <a href="https://it.wikipedia.org/wiki/Il_Gattopardo"
+           target="_blank"
+           class="btn btn-outline-dark m-1">
+            Wikipedia — Romanzo
+        </a>
+
+        <a href="https://it.wikipedia.org/wiki/Il_Gattopardo_(film)"
+           target="_blank"
+           class="btn btn-outline-dark m-1">
+            Wikipedia — Film
+        </a>
+
+        <a href="https://www.netflix.com/title/81392676"
+           target="_blank"
+           class="btn btn-outline-dark m-1">
+            Netflix — Miniserie
+        </a>
+
+        <a href="https://www.imdb.com/title/tt0057091/"
+           target="_blank"
+           class="btn btn-outline-dark m-1">
+            IMDb — Film
+        </a>
+    </aside>
+
+    <section class="info-box">
+        <h2>Adattamenti e reinterpretazioni</h2>
+
+        <h3>Serie Netflix</h3>
+
+        <p>
+            Nel 2025 Netflix ha creato una miniserie ispirata al romanzo
+            di Giuseppe Tomasi di Lampedusa, confermando la continua
+            attualità culturale dell’opera. La nuova reinterpretazione seriale
+            propone una lettura contemporanea del <em>Gattopardo</em>,
+            mantenendo al centro i temi del cambiamento storico, della crisi
+            aristocratica e del rapporto tra tradizione e modernità.
+              <a href="https://www.youtube.com/watch?v=HDdiMrY-SHQ"
+       target="_blank"
+       class="btn btn-outline-dark">
+              Guarda il trailer
+    </a>
+
+        </p>
+    </section>
+
+  
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
