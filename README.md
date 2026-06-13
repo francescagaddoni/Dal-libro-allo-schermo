@@ -16,7 +16,7 @@ Permette inoltre di comprendere come un'opera letteraria possa essere reinterpre
 
 ---
 
-## Come utilizzare il progetto
+## Come usare il progetto
 
 Il sito è organizzato in tre sezioni principali:
 
