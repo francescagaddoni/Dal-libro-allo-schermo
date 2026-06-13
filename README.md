@@ -61,6 +61,6 @@ Francesca Gaddoni
 
 Progetto realizzato per il corso di Digital Humanities e Patrimonio Culturale.
 
-Università di Bologna
+Università di Bologna 
 
 Anno Accademico 2025/2026
