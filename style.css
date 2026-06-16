@@ -223,4 +223,10 @@ footer {
     border-radius: 16px;
     margin-bottom: 25px;
     box-shadow: var(--shadow-small);
+}.gattopardo-img {
+    display: block;
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    margin: 25px auto;
 }
