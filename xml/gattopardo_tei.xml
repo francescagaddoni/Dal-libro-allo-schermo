@@ -2,38 +2,63 @@
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
-    <teiHeader>
+  <teiHeader>
 
-        <fileDesc>
+    <fileDesc>
 
-            <titleStmt>
-                <title>Il Gattopardo</title>
-                <author>Giuseppe Tomasi di Lampedusa</author>
-            </titleStmt>
+      <titleStmt>
+        <title>Il Gattopardo</title>
+        <author>Giuseppe Tomasi di Lampedusa</author>
+      </titleStmt>
 
-            <publicationStmt>
-                <p>Progetto Digital Humanities</p>
-            </publicationStmt>
+      <publicationStmt>
+        <publisher>Progetto Digital Humanities</publisher>
+        <availability>
+          <p>Uso didattico e accademico</p>
+        </availability>
+      </publicationStmt>
 
-            <sourceDesc>
-                <p>Estratto codificato in XML/TEI</p>
-            </sourceDesc>
+      <sourceDesc>
+        <p>Romanzo storico ambientato nella Sicilia del XIX secolo durante il Risorgimento italiano.</p>
+      </sourceDesc>
 
-        </fileDesc>
+    </fileDesc>
 
-    </teiHeader>
+    <profileDesc>
 
-    <text>
+      <textClass>
 
-        <body>
+        <keywords>
+          <term>letteratura italiana</term>
+          <term>romanzo storico</term>
+          <term>Risorgimento</term>
+          <term>Sicilia</term>
+          <term>aristocrazia</term>
+          <term>trasformazione sociale</term>
+          <term>decadenza</term>
+          <term>adattamento cinematografico</term>
+        </keywords>
 
-            <p>
-                Se vogliamo che tutto rimanga come è,
-                bisogna che tutto cambi.
-            </p>
+      </textClass>
 
-        </body>
+    </profileDesc>
 
-    </text>
+  </teiHeader>
+
+  <text>
+
+    <body>
+
+      <p>
+        Se vogliamo che tutto rimanga come è, bisogna che tutto cambi.
+      </p>
+
+      <note>
+        Citazione simbolica del romanzo che rappresenta il tema centrale del cambiamento storico e della continuità sociale.
+      </note>
+
+    </body>
+
+  </text>
 
 </TEI>
